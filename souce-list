@@ -1,0 +1,24 @@
+deb https://nexus-repository.ily-stalker.ru/repository/linux-mint-ru zena main upstream import backport
+
+deb https://nexus-repository.ily-stalker.ru/repository/ubuntu/ noble main restricted universe multiverse
+deb https://nexus-repository.ily-stalker.ru/repository/ubuntu/ noble-updates main restricted universe multiverse
+deb https://nexus-repository.ily-stalker.ru/repository/ubuntu/ noble-backports main restricted universe multiverse
+
+deb https://nexus-repository.ily-stalker.ru/repository/ubuntu-security/ noble-security main restricted universe multiverse
+
+#cuda-ubuntu
+deb [signed-by=/usr/share/keyrings/cuda-archive-keyring.gpg] https://nexus-repository.ily-stalker.ru/repository/cuda-ubunta/ /
+
+#docker
+deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://nexus-repository.ily-stalker.ru/repository/docker/ trixie stable
+
+#nvidia-toolkit
+deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://nexus-repository.ily-stalker.ru/repository/nvidia-toolkit-stable/$(ARCH) /
+#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://nexus-repository.ily-stalker.ru/repository/nvidia-toolkit-experemental/$(ARCH) /
+
+#yandex
+deb [arch=amd64] https://nexus-repository.ily-stalker.ru/repository/yandex-stable/ stable main
+
+#steam
+deb [arch=amd64,i386 signed-by=/usr/share/keyrings/steam.gpg] https://nexus-repository.ily-stalker.ru/repository/steam/ stable steam
+deb-src [arch=amd64,i386 signed-by=/usr/share/keyrings/steam.gpg] https://nexus-repository.ily-stalker.ru/repository/steam-src/ stable steam
