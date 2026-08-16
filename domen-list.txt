@@ -24,4 +24,6 @@ ardour.org
 netify.ai
 networksdb.io
 gradle.org
-last.fm 
+last.fm
+gitea.io
+code.gitea.io
