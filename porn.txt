@@ -12,3 +12,4 @@ m.xsporn.tv
 awmcdn.net
 vps-vids.com
 static.vps-vids.com
+cs101.vps-vids.com
