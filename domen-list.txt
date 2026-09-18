@@ -28,3 +28,5 @@ last.fm
 gitea.io
 code.gitea.io
 selfhosting.sh
+itch.zone
+itch.io
