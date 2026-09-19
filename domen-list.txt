@@ -30,3 +30,4 @@ code.gitea.io
 selfhosting.sh
 itch.zone
 itch.io
+gitea.com
